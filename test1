@@ -1,0 +1,42 @@
+	/*
+	 * 
+	 * Klasse für Vokabel
+	 * 
+	 */
+public class vokabel {
+	public String vokabel;
+	public String translation;
+	public int hardness; //Stufen sind täglich 1 , wöchentlich 2 , monatlich 3 und gelegentlich 4 zu wiederholende Vokabeln
+	}
+
+
+/*
+ * Methode zum hinzufügen neuer Vokabeln in eine Liste. Default hardness = 1
+ * 
+ */
+
+
+/*
+ * Methode zur Pruefung der Uebereinstimmung der Eingabe des Nutzers und Anpassung der Schwierigkeit
+ */
+public void vokabeltest() {
+	if (vokabel = translation) {
+			then return "Richtige Antwort";
+				hardness = x;
+				x + 1 = newhardness;
+				newhardness = hardness;
+			else return "Falsche Antwort";
+				hardness = x;
+				x = 1
+	}		
+}
+
+/*	
+ * Eingabefeld für Zeitregime (Eingabefeld für 5 Wiederholungsstufen dabei Eingabefeld und Auswahl zwischen Tage/Wochen/Monate)
+ * 
+ */
+
+
+
+
+
