@@ -1,18 +1,22 @@
-	/*
+load maps funktion
+
+/*
 	 * 
 	 * Klasse für Vokabel
 	 * 
 	 */
-public class vokabel {
-	public String vokabel;
+public class Vokabel {
+	public String wort;
 	public String translation;
 	public int hardness; //Stufen sind täglich 1 , wöchentlich 2 , monatlich 3 und gelegentlich 4 zu wiederholende Vokabeln
 	}
 
 
 /*
- * Methode zum hinzufügen neuer Vokabeln in eine Liste. Default hardness = 1
- * 
+ * Methode zum hinzufügen neuer Vokabeln in eine Liste. Default hardness = 1 
+ * fill maps
+ * 4 Hash Maps anlegen daily, weekly, monthly, sometimes
+ * Typ Date hinzufügen
  */
 
 
@@ -20,11 +24,11 @@ public class vokabel {
  * Methode zur Pruefung der Uebereinstimmung der Eingabe des Nutzers und Anpassung der Schwierigkeit
  */
 public void vokabeltest() {
-	if (vokabel = translation) {
+	if (Eingabe.equals translation) {
 			then return "Richtige Antwort";
-				hardness = x;
-				x + 1 = newhardness;
-				newhardness = hardness;
+				wort.hardness ++;
+				hier auch umschieben
+				
 			else return "Falsche Antwort";
 				hardness = x;
 				x = 1
@@ -38,5 +42,5 @@ public void vokabeltest() {
 
 
 
-
+save maps
 
